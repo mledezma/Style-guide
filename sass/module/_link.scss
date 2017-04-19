@@ -1,0 +1,11 @@
+a {
+    font-weight: bold;    
+    text-decoration: none;
+
+    &:link {
+        color: #2B2F3F;
+    }
+    &:hover {
+        color: $secondary-color;
+    }
+}
