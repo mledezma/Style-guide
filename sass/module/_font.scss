@@ -19,7 +19,11 @@
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
 
-    -webkit-transform-origin: 23% 0;
-    -ms-transform-origin: 23% 0;
-	transform-origin: 23% 0;
+    // -webkit-transform-origin: 150% -374%;
+    // -ms-transform-origin: 150% -374%;
+	// transform-origin: 150% -374%;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    display: block;
 }
