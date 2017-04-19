@@ -17,7 +17,7 @@
         background-color: #0E1012;
     }
     p:nth-child(3) {
-        background-color: #535859;
+        background-color: #A8A9AD;
     }
 }
 
@@ -45,20 +45,16 @@
     }
 }
 
-.verticalText {
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-
-    /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+.verticalText {      
     -webkit-transform-origin: 50% 50%;
     -moz-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
 
-    /* Should be unset in IE9+ I think. */
+    // For IE9+
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+    @include prefix(transform, rotate(-90deg), webkit ms);
+    
 }

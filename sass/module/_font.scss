@@ -7,23 +7,9 @@
 }
 
 .fontSize-m {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .fontSize-s {
     font-size: 16px;
-}
-
-.vertical-text {
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-
-    // -webkit-transform-origin: 150% -374%;
-    // -ms-transform-origin: 150% -374%;
-	// transform-origin: 150% -374%;
-    position: absolute;
-    left: 0;
-    top: 25%;
-    display: block;
 }

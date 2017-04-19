@@ -1,0 +1,64 @@
+.breadcrumb { 
+    background-color: #E9ECEA;
+    white-space: nowrap; 
+    z-index: 1;
+
+    li {
+        display: inline-block;
+        padding: 0 25px;
+        position: relative;
+        z-index: 2;
+
+        // Does the triangule at the end
+        &::before, &::after {
+            border-right: 5px solid #A8A9AD;
+            content: '';
+            display: block;
+            height: 35%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 3px;
+            z-index: -1;
+
+            @include prefix(transform, skewX(45deg), webkit ms); 
+        }
+
+        &::after {
+            bottom: 3px;
+            top: auto;
+
+            @include prefix(transform, skewX(-45deg), webkit ms);
+        }
+
+        &:last-child::before, &:last-child::after {
+            display: none; 
+        }
+    }
+    a {
+        color: #A8A9AD;
+        font-family: Gotham;
+        text-transform: uppercase;
+    }
+
+    a:hover {
+        color: #000;
+    }
+}
+
+.breadcrumb.inverted {
+    background-color: transparent;
+
+    li {
+        // Does the triangule at the end
+        &::before, &::after {
+            border-right: 5px solid #000;
+        }
+    }
+    a {
+        color: #000;
+    }
+    a:hover {
+        color: #A8A9AD;
+    }
+}
