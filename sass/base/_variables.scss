@@ -1,18 +1,6 @@
 // Font
-@font-face {
-    font-family: Gotham;
-    src: url('../font/Gotham Light Regular.otf');
-}
-
-@font-face {
-    font-family: Gotham;
-    src: url('../font/Gotham Bold.otf');
-    font-weight: bold;
-}
-
-
-$main-font: 'Gotham', sans-serif;
-$secondary-font: 'Palanquin', sans-serif;
+$main-font: 'Source Sans Pro', sans-serif;
+$secondary-font: 'Montserrat', sans-serif;
 
 // Color
-$secondary-color: #E8E8E8;
+$secondary-color: #A8A9AD;

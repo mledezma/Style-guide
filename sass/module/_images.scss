@@ -5,13 +5,11 @@
 
     li {
         -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        filter: brightness(50%);        
+        box-sizing: border-box;      
         float: left;
         height: 0px;
         overflow: hidden;
-        position: relative;        
-        transition: filter .8s ease-in;     
+        position: relative;           
         padding-top: 20%;
         width: 25%;
     }
@@ -27,10 +25,5 @@
         top: 0px;
         width: 90%;
     }
-
-    li:hover {
-        filter: brightness(100%);
-        opacity: 1.0;
-    }  
 }
 
