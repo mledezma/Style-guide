@@ -75,7 +75,7 @@ h3 {
   .secondary-color p:nth-child(2) {
     background-color: #404451; }
   .secondary-color p:nth-child(3) {
-    background-color: #A8A9AD;
+    background-color: #659DB5;
     color: #000; }
 
 .verticalText {
@@ -111,12 +111,12 @@ a {
   a:link {
     color: #404451; }
   a:hover {
-    color: #A8A9AD; }
+    color: #659DB5; }
 
 .btn {
-  background-color: #A8A9AD;
+  background-color: #659DB5;
   border: none;
-  color: #000;
+  color: #fff;
   cursor: pointer;
   font-size: 18px;
   text-align: center;
@@ -128,12 +128,12 @@ a {
 
 .btn:hover {
   background-color: #000;
-  color: #A8A9AD; }
+  color: #659DB5; }
 
 .btn-invert {
   background-color: #000;
   border: 1px solid #000;
-  color: #A8A9AD;
+  color: #659DB5;
   cursor: pointer;
   font-size: 18px;
   text-align: center;
@@ -144,7 +144,7 @@ a {
   /* custom */ }
 
 .btn-invert:hover {
-  background-color: #A8A9AD;
+  background-color: #659DB5;
   color: #000; }
 
 .btn-l {
@@ -157,7 +157,7 @@ a {
   padding: 8px 12px; }
 
 input[type="text"] {
-  background-color: #A8A9AD;
+  background-color: #659DB5;
   border: 1.5px solid #000;
   box-sizing: border-box;
   color: #000;
@@ -172,7 +172,7 @@ input[type="text"]:hover {
   border: 1.5px solid #808080; }
 
 select {
-  background-color: #A8A9AD;
+  background-color: #659DB5;
   color: #000;
   font-size: 14px;
   font-size: 1.4rem;
